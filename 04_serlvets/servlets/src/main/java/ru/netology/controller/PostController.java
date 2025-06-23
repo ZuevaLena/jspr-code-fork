@@ -10,11 +10,10 @@ import java.io.Reader;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
-@RestController
+
 public class PostController {
   private final PostService service;
 
-  @Autowired
   public PostController(PostService service) {
     this.service = service;
   }

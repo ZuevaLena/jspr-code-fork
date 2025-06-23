@@ -9,7 +9,7 @@ import java.util.Optional;
 import org.springframework.stereotype.Repository;
 
 
-@Repository
+
 public class PostRepository {
   public List<Post> all() {
     return Collections.emptyList();

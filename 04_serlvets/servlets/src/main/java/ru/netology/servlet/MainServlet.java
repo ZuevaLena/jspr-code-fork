@@ -17,6 +17,7 @@ public class MainServlet extends HttpServlet {
     controller = context.getBean(PostController.class);
   }
 
+
   @Override
   protected void service(HttpServletRequest req, HttpServletResponse resp) {
     // если деплоились в root context, то достаточно этого
